@@ -15,15 +15,21 @@
         .image-card:hover { border-color: #d4af37; transform: scale(1.02); }
         .btn-gold { border: 1px solid #d4af37; color: #d4af37; transition: 0.3s; }
         .btn-gold:hover { background: #d4af37; color: #0a0a0a; }
-        /* Logo styling for PNG */
-        .site-logo { filter: brightness(0) invert(1); max-height: 50px; width: auto; transition: 0.3s; }
-        .site-logo:hover { filter: brightness(0) invert(1) drop-shadow(0 0 8px rgba(212, 175, 55, 0.4)); }
+        
+        /* UPDATED: Larger Logo Styling */
+        .site-logo { 
+            filter: brightness(0) invert(1); 
+            max-height: 80px; /* Increased from 50px */
+            width: auto; 
+            transition: 0.3s; 
+            padding: 5px 0;
+        }
+        .site-logo:hover { filter: brightness(0) invert(1) drop-shadow(0 0 12px rgba(212, 175, 55, 0.6)); }
     </style>
 </head>
 <body>
 
-    <nav class="fixed top-0 w-full z-50 nav-blur px-8 py-4">
-        <div class="max-w-7xl mx-auto flex justify-between items-center">
+    <nav class="fixed top-0 w-full z-50 nav-blur px-8 py-2"> <div class="max-w-7xl mx-auto flex justify-between items-center">
             <a href="#" class="flex items-center">
                 <img src="annalogo.png" alt="Anna Logo" class="site-logo">
             </a>
@@ -60,7 +66,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="image-card aspect-[4/5]"><img src="edit1.png" class="w-full h-full object-cover transition duration-700 hover:scale-110"></div>
                 <div class="image-card aspect-[4/5]"><img src="edit2.png" class="w-full h-full object-cover transition duration-700 hover:scale-110"></div>
-                <div class="image-card aspect-[4/5]"><img src="edit3.png" class="get-full-color w-full h-full object-cover transition duration-700 hover:scale-110"></div>
+                <div class="image-card aspect-[4/5]"><img src="edit3.png" class="w-full h-full object-cover transition duration-700 hover:scale-110"></div>
                 <div class="image-card aspect-[4/5]"><img src="edit5.png" class="w-full h-full object-cover transition duration-700 hover:scale-110"></div>
                 <div class="image-card aspect-[4/5]"><img src="edit6.png" class="w-full h-full object-cover transition duration-700 hover:scale-110"></div>
                 <div class="image-card aspect-[4/5]"><img src="edit7.png" class="w-full h-full object-cover transition duration-700 hover:scale-110"></div>
